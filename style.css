@@ -1,0 +1,71 @@
+.rela {
+  margin-left: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rela {
+    margin-left: 20px;
+  }
+
+  .margin {
+    left: 10px;
+    margin-left: 0px;
+    margin-top: 2px;
+  }
+
+  .cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.colou {
+  color: #38b87f;
+}
+.with {
+  width: 50px;
+}
+
+.widh {
+  width: 100px;
+}
+
+.color {
+  background: linear-gradient(93deg, #fff 7.54%, #dedede 98.63%);
+  width: auto;
+}
+
+.colour {
+  background: var(--Gradient, linear-gradient(90deg, #1ea7b0 0%, #071a4c 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 40px;
+}
+
+.margin {
+  left: 180px;
+  top: 12px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .cent2 {
+    text-align: end;
+  }
+
+  .start {
+    position: relative;
+    top: 0;
+    left: 50%;
+  }
+}
+
